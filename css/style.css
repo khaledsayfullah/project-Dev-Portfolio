@@ -78,7 +78,7 @@ ul,li{
     background-color: transparent;
 
 }
-.navBtn button a:hover{
+.navBtn button:hover a{
     color: #FD6E0A;
 }
 .title h3{
@@ -117,4 +117,13 @@ ul,li{
     color: #ffff;
     font-size: 20px;
     font-weight: 400;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.hireBtn button:hover{
+    background: transparent;
+}
+.hireBtn button:hover a{
+    color: #FD6E0A;
 }
